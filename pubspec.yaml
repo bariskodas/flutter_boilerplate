@@ -26,6 +26,9 @@ dependencies:
     sdk: flutter
   intl: any
 
+  #* network
+  dio: ^5.3.4
+
 
 dev_dependencies:
   flutter_test:
