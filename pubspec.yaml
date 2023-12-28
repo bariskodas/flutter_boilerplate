@@ -37,6 +37,11 @@ dependencies:
   json_annotation: ^4.8.0
   pretty_chopper_logger: ^1.0.6
 
+  #* database
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+
+
 
 dev_dependencies:
   flutter_test:
@@ -53,6 +58,7 @@ dev_dependencies:
   flutter_lints: ^2.0.0
   integration_test:
     sdk: flutter
+  isar_generator: ^3.1.0+1
 
 flutter_gen:
   output: lib/app/core/helpers # Optional (default: lib/gen/)
