@@ -1,0 +1,11 @@
+targets:
+  $default:
+    builders:
+      swagger_dart_code_generator:
+        options:
+          input_folder: 'lib/app/data/swagger/json/'
+          output_folder: 'lib/app/data/swagger/gen/'
+          separate_models: true
+          # cut_from_model_names: 'ViewModel'
+          # use_path_for_request_names: false
+          # add_base_path_to_requests: false
