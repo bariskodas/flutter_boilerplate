@@ -42,6 +42,8 @@ dev_dependencies:
   retrofit_generator: '>=7.0.0 <8.0.0'
   
   flutter_lints: ^2.0.0
+  integration_test:
+    sdk: flutter
 
 flutter_gen:
   output: lib/app/core/helpers # Optional (default: lib/gen/)
