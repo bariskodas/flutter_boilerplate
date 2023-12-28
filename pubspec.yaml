@@ -1,6 +1,8 @@
 name: flutter_boilerplate
 description: A boilerplate for Flutter.
 
+# SDK version 3.16.0
+
 version: 1.0.0+1
 
 environment:
