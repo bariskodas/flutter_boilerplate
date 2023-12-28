@@ -40,7 +40,10 @@ dependencies:
   #* database
   isar: ^3.1.0+1
   isar_flutter_libs: ^3.1.0+1
+
+  #* utils
   path_provider: ^2.1.1
+  permission_handler: ^11.1.0
 
 
 
