@@ -10,7 +10,7 @@ void main() async {
   FlavorConfig(
     color: Colors.green,
     name: 'DEV',
-    location: BannerLocation.topStart,
+    location: BannerLocation.topEnd,
   );
 
   await initApp();
