@@ -6,5 +6,5 @@ Future<void> initApp() async {
   //* di
   configDI();
 
-  runApp(const MyApp());
+  runApp(const App());
 }

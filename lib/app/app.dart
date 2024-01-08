@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_boilerplate/app/l10n/app_localizations.dart';
 import 'package:flutter_flavor/flutter_flavor.dart';
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class App extends StatelessWidget {
+  const App({super.key});
 
   @override
   Widget build(BuildContext context) {
