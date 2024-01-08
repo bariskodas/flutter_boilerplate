@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
@@ -33,7 +31,7 @@ class CustomImage extends StatefulWidget {
 }
 
 class _CustomNetworkImageState extends State<CustomImage> {
-  Dio _dio = Dio();
+  final Dio _dio = Dio();
   late String cacheDir;
 
   @override
