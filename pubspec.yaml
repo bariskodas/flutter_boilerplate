@@ -43,6 +43,11 @@ dependencies:
   isar: ^3.1.0+1
   isar_flutter_libs: ^3.1.0+1
 
+  #* firebase
+  firebase_core: ^2.24.2
+  firebase_messaging: ^14.7.10
+  firebase_analytics: ^10.8.0
+
   #* utils
   path_provider: ^2.1.1
   permission_handler: ^11.1.0
