@@ -52,6 +52,9 @@ dependencies:
   firebase_messaging: ^14.7.10
   firebase_analytics: ^10.8.0
 
+  #* navigation
+  auto_route: ^7.8.4
+
   #* utils
   path_provider: ^2.1.1
   permission_handler: ^11.1.0
@@ -60,6 +63,7 @@ dependencies:
   share_plus: ^7.2.1
   device_info_plus: ^9.1.1
   flutter_local_notifications: ^16.3.0
+
 
 
 
@@ -79,6 +83,7 @@ dev_dependencies:
   swagger_dart_code_generator: ^2.10.4
   isar_generator: ^3.1.0+1
   injectable_generator: ^2.4.1
+  auto_route_generator: ^7.3.2
 
 flutter_gen:
   output: lib/app/core/helpers # Optional (default: lib/gen/)
