@@ -25,6 +25,8 @@ class App extends StatelessWidget {
               child: Text('Hello World'),
             ),
           ),
+          scrollBehavior: const MaterialScrollBehavior()
+              .copyWith(physics: const ClampingScrollPhysics()),
         ),
       ),
     );
