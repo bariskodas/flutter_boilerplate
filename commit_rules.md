@@ -15,3 +15,6 @@ performance improvements
 
 remove 🔥 : 
 when removing a file, function, variable etc.
+
+version 📝 :
+when released a version
